@@ -9,5 +9,10 @@ class Anagram
       binding.pry
     end
     
+    def match(poss_matches)
+      poss_matches.split(" ")
+      binding.pry
+    end
+      
     
 end
