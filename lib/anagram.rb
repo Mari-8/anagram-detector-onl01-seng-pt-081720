@@ -15,12 +15,8 @@ class Anagram
         if word.split("").sort == @checking.sort
           @matches << word 
         else 
-          
-        
-      
-     
-     
-    end
+        end
+      end
       
     
 end
