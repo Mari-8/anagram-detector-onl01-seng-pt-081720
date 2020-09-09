@@ -12,7 +12,8 @@ class Anagram
       @matches = []
       
       poss_matches.each do |word|
-        word.sort!
+        binding.pry
+        word.sort
         if word.split("") == @checking.sort
           @matches << word 
         else 
