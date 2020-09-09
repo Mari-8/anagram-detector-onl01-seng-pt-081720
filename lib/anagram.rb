@@ -9,8 +9,14 @@ class Anagram
     end
     
     def match(poss_matches)
-      poss_matches.split(" ")
-      binding.pry
+      @matches = []
+      
+      poss_matches.each do |word|
+        word.split("")
+        if 
+      
+     
+     
     end
       
     
