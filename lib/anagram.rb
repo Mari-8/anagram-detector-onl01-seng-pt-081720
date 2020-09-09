@@ -6,7 +6,6 @@ class Anagram
     
     def initialize(word)
       @checking = word
-      binding.pry
     end
     
     def match(poss_matches)
