@@ -9,7 +9,7 @@ class Anagram
     end
     
     def match(poss_matches)
-      arry = poss_matches.split(" ")
+      poss_matches.split(" ")
       binding.pry
     end
       
