@@ -15,6 +15,7 @@ class Anagram
         if word.split("").sort == @checking.split("").sort
           @matches << word 
         else 
+          nil
         end
       end
     end
