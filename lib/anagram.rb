@@ -5,6 +5,9 @@ class Anagram
     
     
     def initialize(word)
-      
+      @checking = word
+      binding.pry
     end
+    
+    
 end
