@@ -18,6 +18,7 @@ class Anagram
           nil
         end
       end
+      @matches
     end
       
     
